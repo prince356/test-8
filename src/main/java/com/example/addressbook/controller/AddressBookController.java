@@ -1,5 +1,6 @@
 package com.example.addressbook.controller;
 
+import com.example.addressbook.dto.AddressBookDTO;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
@@ -18,13 +19,13 @@ public class AddressBookController {
     }
 
     @PostMapping("")
-    public ResponseEntity<String> createAddressBook(@RequestBody String addressBookData) {
-        return ResponseEntity.ok("Address Book Created: " + addressBookData);
+    public ResponseEntity<String> createAddressBook(@RequestBody AddressBookDTO addressBookDTO) {
+        return ResponseEntity.ok("Address Book Created: " + addressBookDTO.toString());
     }
 
     @PutMapping("/{id}")
-    public ResponseEntity<String> updateAddressBook(@PathVariable int id, @RequestBody String addressBookData) {
-        return ResponseEntity.ok("Address Book Updated for ID: " + id + " with Data: " + addressBookData);
+    public ResponseEntity<String> updateAddressBook(@PathVariable int id, @RequestBody AddressBookDTO addressBookDTO) {
+        return ResponseEntity.ok("Address Book Updated for ID: " + id + " with Data: " + addressBookDTO.toString());
     }
 
     @DeleteMapping("/{id}")
