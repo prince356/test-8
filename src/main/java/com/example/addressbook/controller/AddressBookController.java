@@ -12,13 +12,13 @@ public class AddressBookController {
 
     @GetMapping("")
     public ResponseEntity<String> getAddressBook() {
-        log.info("Fetching all address book data");
+        log.debug("Fetching all address book data");
         return ResponseEntity.ok("Address Book Data");
     }
 
     @GetMapping("/{id}")
     public ResponseEntity<String> getAddressBookById(@PathVariable int id) {
-        log.info("Fetching address book data for ID: {}", id);
+        log.debug("Fetching address book data for ID: {}", id);
         return ResponseEntity.ok("Address Book Data for ID: " + id);
     }
 
@@ -36,7 +36,7 @@ public class AddressBookController {
 
     @DeleteMapping("/{id}")
     public ResponseEntity<String> deleteAddressBook(@PathVariable int id) {
-        log.info("Deleting address book entry for ID: {}", id);
+        log.warn("Deleting address book entry for ID: {}", id);
         return ResponseEntity.ok("Address Book Deleted for ID: " + id);
     }
 }
