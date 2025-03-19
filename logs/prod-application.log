@@ -1,0 +1,3 @@
+2025-03-19T19:35:44.655+05:30  INFO 287099 --- [addressbook] [restartedMain] c.e.addressbook.AddressbookApplication   : Starting AddressbookApplication using Java 21.0.2 with PID 287099 (/home/prince/Desktop/CG/addressbook/target/classes started by prince in /home/prince/Desktop/CG/addressbook)
+2025-03-19T19:35:44.659+05:30  INFO 287099 --- [addressbook] [restartedMain] c.e.addressbook.AddressbookApplication   : The following 1 profile is active: "prod"
+2025-03-19T19:35:47.491+05:30  INFO 287099 --- [addressbook] [restartedMain] c.e.addressbook.AddressbookApplication   : Started AddressbookApplication in 3.729 seconds (process running for 4.629)
