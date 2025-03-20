@@ -68,3 +68,9 @@
 2025-03-20T10:21:33.945+05:30 DEBUG 390488 --- [addressbook] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
 2025-03-20T10:21:33.946+05:30 DEBUG 390488 --- [addressbook] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
 2025-03-20T10:21:37.737+05:30  INFO 390488 --- [addressbook] [http-nio-8080-exec-3] c.e.a.controller.AddressBookController   : Creating new address book entry: AddressBookDTO(name=John Doe, address=123 Main St, city=New York, state=NY, zip=10001, phone=123-456-7890)
+2025-03-20T10:22:03.946+05:30 DEBUG 390488 --- [addressbook] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-03-20T10:22:03.947+05:30 DEBUG 390488 --- [addressbook] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2025-03-20T10:22:33.948+05:30 DEBUG 390488 --- [addressbook] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-03-20T10:22:33.948+05:30 DEBUG 390488 --- [addressbook] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2025-03-20T10:23:03.949+05:30 DEBUG 390488 --- [addressbook] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-03-20T10:23:03.949+05:30 DEBUG 390488 --- [addressbook] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
