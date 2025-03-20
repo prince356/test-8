@@ -266,3 +266,9 @@
     where
         ab1_0.id=?
 2025-03-20T10:45:57.460+05:30  WARN 392100 --- [addressbook] [http-nio-8080-exec-4] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.example.addressbook.exception.AddressBookNotFoundException: Address book not found with ID: 999]
+2025-03-20T10:46:17.211+05:30 DEBUG 392100 --- [addressbook] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-03-20T10:46:17.212+05:30 DEBUG 392100 --- [addressbook] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2025-03-20T10:46:47.213+05:30 DEBUG 392100 --- [addressbook] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-03-20T10:46:47.214+05:30 DEBUG 392100 --- [addressbook] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2025-03-20T10:47:17.214+05:30 DEBUG 392100 --- [addressbook] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-03-20T10:47:17.215+05:30 DEBUG 392100 --- [addressbook] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
