@@ -1,222 +1,70 @@
-2025-03-19T18:31:08.277+05:30  INFO 270705 --- [addressbook] [restartedMain] c.e.addressbook.AddressbookApplication   : Starting AddressbookApplication using Java 21.0.2 with PID 270705 (/home/prince/Desktop/CG/addressbook/target/classes started by prince in /home/prince/Desktop/CG/addressbook)
-2025-03-19T18:31:08.281+05:30 DEBUG 270705 --- [addressbook] [restartedMain] c.e.addressbook.AddressbookApplication   : Running with Spring Boot v3.4.3, Spring v6.2.3
-2025-03-19T18:31:08.284+05:30  INFO 270705 --- [addressbook] [restartedMain] c.e.addressbook.AddressbookApplication   : The following 1 profile is active: "dev"
-2025-03-19T18:31:12.167+05:30  INFO 270705 --- [addressbook] [restartedMain] c.e.addressbook.AddressbookApplication   : Started AddressbookApplication in 5.227 seconds (process running for 6.774)
-2025-03-19T18:31:50.725+05:30 DEBUG 270705 --- [addressbook] [http-nio-8080-exec-1] c.e.a.controller.AddressBookController   : Fetching all address book data
-2025-03-19T18:31:56.644+05:30  INFO 270705 --- [addressbook] [http-nio-8080-exec-2] c.e.a.controller.AddressBookController   : Creating new address book entry: AddressBookDTO(name=John Doe, address=123 Main St, city=New York, state=NY, zip=10001, phone=123-456-7890)
-2025-03-19T18:32:03.771+05:30  INFO 270705 --- [addressbook] [http-nio-8080-exec-3] c.e.a.controller.AddressBookController   : Creating new address book entry: AddressBookDTO(name=John Doe, address=123 Main St, city=New York, state=NY, zip=10001, phone=123-456-7890)
-2025-03-19T18:33:13.301+05:30 DEBUG 270705 --- [addressbook] [http-nio-8080-exec-4] c.e.a.controller.AddressBookController   : Fetching all address book data
-2025-03-19T18:33:19.681+05:30  INFO 270705 --- [addressbook] [http-nio-8080-exec-5] c.e.a.controller.AddressBookController   : Creating new address book entry: AddressBookDTO(name=John Doe, address=123 Main St, city=New York, state=NY, zip=10001, phone=123-456-7890)
-2025-03-19T19:36:28.805+05:30  INFO 287264 --- [addressbook] [restartedMain] c.e.addressbook.AddressbookApplication   : Starting AddressbookApplication using Java 21.0.2 with PID 287264 (/home/prince/Desktop/CG/addressbook/target/classes started by prince in /home/prince/Desktop/CG/addressbook)
-2025-03-19T19:36:28.808+05:30 DEBUG 287264 --- [addressbook] [restartedMain] c.e.addressbook.AddressbookApplication   : Running with Spring Boot v3.4.3, Spring v6.2.3
-2025-03-19T19:36:28.809+05:30  INFO 287264 --- [addressbook] [restartedMain] c.e.addressbook.AddressbookApplication   : The following 1 profile is active: "dev"
-2025-03-19T19:36:31.324+05:30  INFO 287264 --- [addressbook] [restartedMain] c.e.addressbook.AddressbookApplication   : Started AddressbookApplication in 3.454 seconds (process running for 4.345)
-2025-03-19T19:36:38.411+05:30 DEBUG 287264 --- [addressbook] [http-nio-8080-exec-1] c.e.a.controller.AddressBookController   : Fetching all address book data
-2025-03-19T19:36:56.557+05:30  INFO 287264 --- [addressbook] [http-nio-8080-exec-2] c.e.a.controller.AddressBookController   : Creating new address book entry: AddressBookDTO(name=John Doe, address=123 Main St, city=New York, state=NY, zip=10001, phone=123-456-7890)
-2025-03-19T20:20:23.884+05:30  INFO 291753 --- [addressbook] [restartedMain] c.e.addressbook.AddressbookApplication   : Starting AddressbookApplication using Java 21.0.2 with PID 291753 (/home/prince/Desktop/CG/addressbook/target/classes started by prince in /home/prince/Desktop/CG/addressbook)
-2025-03-19T20:20:23.888+05:30 DEBUG 291753 --- [addressbook] [restartedMain] c.e.addressbook.AddressbookApplication   : Running with Spring Boot v3.4.3, Spring v6.2.3
-2025-03-19T20:20:23.890+05:30  INFO 291753 --- [addressbook] [restartedMain] c.e.addressbook.AddressbookApplication   : The following 1 profile is active: "dev"
-2025-03-19T20:20:26.389+05:30  INFO 291753 --- [addressbook] [restartedMain] c.e.addressbook.AddressbookApplication   : Started AddressbookApplication in 3.479 seconds (process running for 4.358)
-2025-03-19T20:21:10.340+05:30  INFO 292441 --- [addressbook] [restartedMain] c.e.addressbook.AddressbookApplication   : Starting AddressbookApplication using Java 21.0.2 with PID 292441 (/home/prince/Desktop/CG/addressbook/target/classes started by prince in /home/prince/Desktop/CG/addressbook)
-2025-03-19T20:21:10.345+05:30 DEBUG 292441 --- [addressbook] [restartedMain] c.e.addressbook.AddressbookApplication   : Running with Spring Boot v3.4.3, Spring v6.2.3
-2025-03-19T20:21:10.346+05:30  INFO 292441 --- [addressbook] [restartedMain] c.e.addressbook.AddressbookApplication   : The following 1 profile is active: "dev"
-2025-03-19T20:21:14.869+05:30  WARN 292441 --- [addressbook] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-03-19T20:21:18.242+05:30  INFO 292441 --- [addressbook] [restartedMain] c.e.addressbook.AddressbookApplication   : Started AddressbookApplication in 8.871 seconds (process running for 9.812)
-2025-03-19T20:21:44.493+05:30  INFO 292952 --- [addressbook] [restartedMain] c.e.addressbook.AddressbookApplication   : Starting AddressbookApplication using Java 21.0.2 with PID 292952 (/home/prince/Desktop/CG/addressbook/target/classes started by prince in /home/prince/Desktop/CG/addressbook)
-2025-03-19T20:21:44.498+05:30 DEBUG 292952 --- [addressbook] [restartedMain] c.e.addressbook.AddressbookApplication   : Running with Spring Boot v3.4.3, Spring v6.2.3
-2025-03-19T20:21:44.500+05:30  INFO 292952 --- [addressbook] [restartedMain] c.e.addressbook.AddressbookApplication   : The following 1 profile is active: "dev"
-2025-03-19T20:21:46.751+05:30 DEBUG 292952 --- [addressbook] [restartedMain] com.zaxxer.hikari.HikariConfig           : Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader org.springframework.boot.devtools.restart.classloader.RestartClassLoader@b5496b6
-2025-03-19T20:21:47.573+05:30 DEBUG 292952 --- [addressbook] [restartedMain] com.zaxxer.hikari.HikariConfig           : HikariPool-1 - configuration:
-2025-03-19T20:21:47.581+05:30 DEBUG 292952 --- [addressbook] [restartedMain] com.zaxxer.hikari.HikariConfig           : allowPoolSuspension.............false
-2025-03-19T20:21:47.581+05:30 DEBUG 292952 --- [addressbook] [restartedMain] com.zaxxer.hikari.HikariConfig           : autoCommit......................true
-2025-03-19T20:21:47.582+05:30 DEBUG 292952 --- [addressbook] [restartedMain] com.zaxxer.hikari.HikariConfig           : catalog.........................none
-2025-03-19T20:21:47.583+05:30 DEBUG 292952 --- [addressbook] [restartedMain] com.zaxxer.hikari.HikariConfig           : connectionInitSql...............none
-2025-03-19T20:21:47.583+05:30 DEBUG 292952 --- [addressbook] [restartedMain] com.zaxxer.hikari.HikariConfig           : connectionTestQuery.............none
-2025-03-19T20:21:47.585+05:30 DEBUG 292952 --- [addressbook] [restartedMain] com.zaxxer.hikari.HikariConfig           : connectionTimeout...............30000
-2025-03-19T20:21:47.585+05:30 DEBUG 292952 --- [addressbook] [restartedMain] com.zaxxer.hikari.HikariConfig           : dataSource......................none
-2025-03-19T20:21:47.586+05:30 DEBUG 292952 --- [addressbook] [restartedMain] com.zaxxer.hikari.HikariConfig           : dataSourceClassName.............none
-2025-03-19T20:21:47.586+05:30 DEBUG 292952 --- [addressbook] [restartedMain] com.zaxxer.hikari.HikariConfig           : dataSourceJNDI..................none
-2025-03-19T20:21:47.587+05:30 DEBUG 292952 --- [addressbook] [restartedMain] com.zaxxer.hikari.HikariConfig           : dataSourceProperties............{password=<masked>}
-2025-03-19T20:21:47.588+05:30 DEBUG 292952 --- [addressbook] [restartedMain] com.zaxxer.hikari.HikariConfig           : driverClassName................."com.mysql.cj.jdbc.Driver"
-2025-03-19T20:21:47.588+05:30 DEBUG 292952 --- [addressbook] [restartedMain] com.zaxxer.hikari.HikariConfig           : exceptionOverrideClassName......none
-2025-03-19T20:21:47.589+05:30 DEBUG 292952 --- [addressbook] [restartedMain] com.zaxxer.hikari.HikariConfig           : healthCheckProperties...........{}
-2025-03-19T20:21:47.589+05:30 DEBUG 292952 --- [addressbook] [restartedMain] com.zaxxer.hikari.HikariConfig           : healthCheckRegistry.............none
-2025-03-19T20:21:47.589+05:30 DEBUG 292952 --- [addressbook] [restartedMain] com.zaxxer.hikari.HikariConfig           : idleTimeout.....................600000
-2025-03-19T20:21:47.590+05:30 DEBUG 292952 --- [addressbook] [restartedMain] com.zaxxer.hikari.HikariConfig           : initializationFailTimeout.......1
-2025-03-19T20:21:47.590+05:30 DEBUG 292952 --- [addressbook] [restartedMain] com.zaxxer.hikari.HikariConfig           : isolateInternalQueries..........false
-2025-03-19T20:21:47.591+05:30 DEBUG 292952 --- [addressbook] [restartedMain] com.zaxxer.hikari.HikariConfig           : jdbcUrl.........................jdbc:mysql://localhost:3306/addressbook
-2025-03-19T20:21:47.591+05:30 DEBUG 292952 --- [addressbook] [restartedMain] com.zaxxer.hikari.HikariConfig           : keepaliveTime...................0
-2025-03-19T20:21:47.591+05:30 DEBUG 292952 --- [addressbook] [restartedMain] com.zaxxer.hikari.HikariConfig           : leakDetectionThreshold..........0
-2025-03-19T20:21:47.592+05:30 DEBUG 292952 --- [addressbook] [restartedMain] com.zaxxer.hikari.HikariConfig           : maxLifetime.....................1800000
-2025-03-19T20:21:47.592+05:30 DEBUG 292952 --- [addressbook] [restartedMain] com.zaxxer.hikari.HikariConfig           : maximumPoolSize.................10
-2025-03-19T20:21:47.593+05:30 DEBUG 292952 --- [addressbook] [restartedMain] com.zaxxer.hikari.HikariConfig           : metricRegistry..................none
-2025-03-19T20:21:47.593+05:30 DEBUG 292952 --- [addressbook] [restartedMain] com.zaxxer.hikari.HikariConfig           : metricsTrackerFactory...........none
-2025-03-19T20:21:47.593+05:30 DEBUG 292952 --- [addressbook] [restartedMain] com.zaxxer.hikari.HikariConfig           : minimumIdle.....................10
-2025-03-19T20:21:47.594+05:30 DEBUG 292952 --- [addressbook] [restartedMain] com.zaxxer.hikari.HikariConfig           : password........................<masked>
-2025-03-19T20:21:47.594+05:30 DEBUG 292952 --- [addressbook] [restartedMain] com.zaxxer.hikari.HikariConfig           : poolName........................"HikariPool-1"
-2025-03-19T20:21:47.594+05:30 DEBUG 292952 --- [addressbook] [restartedMain] com.zaxxer.hikari.HikariConfig           : readOnly........................false
-2025-03-19T20:21:47.595+05:30 DEBUG 292952 --- [addressbook] [restartedMain] com.zaxxer.hikari.HikariConfig           : registerMbeans..................false
-2025-03-19T20:21:47.595+05:30 DEBUG 292952 --- [addressbook] [restartedMain] com.zaxxer.hikari.HikariConfig           : scheduledExecutor...............none
-2025-03-19T20:21:47.596+05:30 DEBUG 292952 --- [addressbook] [restartedMain] com.zaxxer.hikari.HikariConfig           : schema..........................none
-2025-03-19T20:21:47.596+05:30 DEBUG 292952 --- [addressbook] [restartedMain] com.zaxxer.hikari.HikariConfig           : threadFactory...................internal
-2025-03-19T20:21:47.596+05:30 DEBUG 292952 --- [addressbook] [restartedMain] com.zaxxer.hikari.HikariConfig           : transactionIsolation............default
-2025-03-19T20:21:47.596+05:30 DEBUG 292952 --- [addressbook] [restartedMain] com.zaxxer.hikari.HikariConfig           : username........................"root"
-2025-03-19T20:21:47.597+05:30 DEBUG 292952 --- [addressbook] [restartedMain] com.zaxxer.hikari.HikariConfig           : validationTimeout...............5000
-2025-03-19T20:21:47.597+05:30  INFO 292952 --- [addressbook] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-03-19T20:21:48.188+05:30  INFO 292952 --- [addressbook] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@58bfba9f
-2025-03-19T20:21:48.192+05:30  INFO 292952 --- [addressbook] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-03-19T20:21:48.292+05:30 DEBUG 292952 --- [addressbook] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=1, active=1, idle=0, waiting=0)
-2025-03-19T20:21:48.345+05:30 DEBUG 292952 --- [addressbook] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7fd0393c
-2025-03-19T20:21:48.376+05:30 DEBUG 292952 --- [addressbook] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After adding stats (total=2, active=0, idle=2, waiting=0)
-2025-03-19T20:21:48.415+05:30 DEBUG 292952 --- [addressbook] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3eed3307
-2025-03-19T20:21:48.446+05:30 DEBUG 292952 --- [addressbook] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After adding stats (total=3, active=0, idle=3, waiting=0)
-2025-03-19T20:21:48.483+05:30 DEBUG 292952 --- [addressbook] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@f190fc7
-2025-03-19T20:21:48.514+05:30 DEBUG 292952 --- [addressbook] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After adding stats (total=4, active=0, idle=4, waiting=0)
-2025-03-19T20:21:48.550+05:30 DEBUG 292952 --- [addressbook] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5ec2cc48
-2025-03-19T20:21:48.582+05:30 DEBUG 292952 --- [addressbook] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After adding stats (total=5, active=0, idle=5, waiting=0)
-2025-03-19T20:21:48.622+05:30 DEBUG 292952 --- [addressbook] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5a8cf633
-2025-03-19T20:21:48.652+05:30 DEBUG 292952 --- [addressbook] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After adding stats (total=6, active=0, idle=6, waiting=0)
-2025-03-19T20:21:48.680+05:30 DEBUG 292952 --- [addressbook] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1fb7fb28
-2025-03-19T20:21:48.710+05:30 DEBUG 292952 --- [addressbook] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After adding stats (total=7, active=0, idle=7, waiting=0)
-2025-03-19T20:21:48.754+05:30 DEBUG 292952 --- [addressbook] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@16a28f4c
-2025-03-19T20:21:48.785+05:30 DEBUG 292952 --- [addressbook] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After adding stats (total=8, active=0, idle=8, waiting=0)
-2025-03-19T20:21:48.812+05:30 DEBUG 292952 --- [addressbook] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@500a812a
-2025-03-19T20:21:48.843+05:30 DEBUG 292952 --- [addressbook] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After adding stats (total=9, active=0, idle=9, waiting=0)
-2025-03-19T20:21:48.880+05:30 DEBUG 292952 --- [addressbook] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6f04a927
-2025-03-19T20:21:48.910+05:30 DEBUG 292952 --- [addressbook] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
-2025-03-19T20:21:48.911+05:30 DEBUG 292952 --- [addressbook] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Connection not added, stats (total=10, active=0, idle=10, waiting=0)
-2025-03-19T20:21:48.977+05:30  WARN 292952 --- [addressbook] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-03-19T20:21:49.659+05:30  INFO 292952 --- [addressbook] [restartedMain] c.e.addressbook.AddressbookApplication   : Started AddressbookApplication in 6.113 seconds (process running for 7.078)
-2025-03-19T20:22:18.305+05:30 DEBUG 292952 --- [addressbook] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2025-03-19T20:22:18.318+05:30 DEBUG 292952 --- [addressbook] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
-2025-03-19T20:22:48.320+05:30 DEBUG 292952 --- [addressbook] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2025-03-19T20:22:48.324+05:30 DEBUG 292952 --- [addressbook] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
-2025-03-19T20:22:48.390+05:30 DEBUG 292952 --- [addressbook] [http-nio-8080-exec-1] c.e.a.controller.AddressBookController   : Fetching all address book data
-2025-03-19T20:23:01.746+05:30  INFO 292952 --- [addressbook] [http-nio-8080-exec-2] c.e.a.controller.AddressBookController   : Creating new address book entry: AddressBookDTO(name=John Doe, address=123 Main St, city=New York, state=NY, zip=10001, phone=123-456-7890)
-2025-03-19T20:23:18.332+05:30 DEBUG 292952 --- [addressbook] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2025-03-19T20:23:18.335+05:30 DEBUG 292952 --- [addressbook] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
-2025-03-19T20:23:35.756+05:30  INFO 292952 --- [addressbook] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2025-03-19T20:23:35.757+05:30 DEBUG 292952 --- [addressbook] [SpringApplicationShutdownHook] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Before shutdown stats (total=10, active=0, idle=10, waiting=0)
-2025-03-19T20:23:35.760+05:30 DEBUG 292952 --- [addressbook] [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@58bfba9f: (connection evicted)
-2025-03-19T20:23:35.784+05:30 DEBUG 292952 --- [addressbook] [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@7fd0393c: (connection evicted)
-2025-03-19T20:23:35.785+05:30 DEBUG 292952 --- [addressbook] [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@3eed3307: (connection evicted)
-2025-03-19T20:23:35.786+05:30 DEBUG 292952 --- [addressbook] [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@f190fc7: (connection evicted)
-2025-03-19T20:23:35.787+05:30 DEBUG 292952 --- [addressbook] [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@5ec2cc48: (connection evicted)
-2025-03-19T20:23:35.788+05:30 DEBUG 292952 --- [addressbook] [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@5a8cf633: (connection evicted)
-2025-03-19T20:23:35.790+05:30 DEBUG 292952 --- [addressbook] [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@1fb7fb28: (connection evicted)
-2025-03-19T20:23:35.791+05:30 DEBUG 292952 --- [addressbook] [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@16a28f4c: (connection evicted)
-2025-03-19T20:23:35.792+05:30 DEBUG 292952 --- [addressbook] [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@500a812a: (connection evicted)
-2025-03-19T20:23:35.793+05:30 DEBUG 292952 --- [addressbook] [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@6f04a927: (connection evicted)
-2025-03-19T20:23:35.794+05:30 DEBUG 292952 --- [addressbook] [SpringApplicationShutdownHook] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After shutdown stats (total=0, active=0, idle=0, waiting=0)
-2025-03-19T20:23:35.795+05:30  INFO 292952 --- [addressbook] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2025-03-19T20:23:39.680+05:30  INFO 294282 --- [addressbook] [restartedMain] c.e.addressbook.AddressbookApplication   : Starting AddressbookApplication using Java 21.0.2 with PID 294282 (/home/prince/Desktop/CG/addressbook/target/classes started by prince in /home/prince/Desktop/CG/addressbook)
-2025-03-19T20:23:39.684+05:30 DEBUG 294282 --- [addressbook] [restartedMain] c.e.addressbook.AddressbookApplication   : Running with Spring Boot v3.4.3, Spring v6.2.3
-2025-03-19T20:23:39.686+05:30  INFO 294282 --- [addressbook] [restartedMain] c.e.addressbook.AddressbookApplication   : The following 1 profile is active: "dev"
-2025-03-19T20:23:42.908+05:30  INFO 294282 --- [addressbook] [restartedMain] c.e.addressbook.AddressbookApplication   : Started AddressbookApplication in 4.352 seconds (process running for 5.456)
-2025-03-19T20:25:55.512+05:30  INFO 295956 --- [addressbook] [restartedMain] c.e.addressbook.AddressbookApplication   : Starting AddressbookApplication using Java 21.0.2 with PID 295956 (/home/prince/Desktop/CG/addressbook/target/classes started by prince in /home/prince/Desktop/CG/addressbook)
-2025-03-19T20:25:55.517+05:30 DEBUG 295956 --- [addressbook] [restartedMain] c.e.addressbook.AddressbookApplication   : Running with Spring Boot v3.4.3, Spring v6.2.3
-2025-03-19T20:25:55.519+05:30  INFO 295956 --- [addressbook] [restartedMain] c.e.addressbook.AddressbookApplication   : The following 1 profile is active: "dev"
-2025-03-19T20:25:58.524+05:30 DEBUG 295956 --- [addressbook] [restartedMain] com.zaxxer.hikari.HikariConfig           : Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader org.springframework.boot.devtools.restart.classloader.RestartClassLoader@746656c4
-2025-03-19T20:25:59.551+05:30 DEBUG 295956 --- [addressbook] [restartedMain] com.zaxxer.hikari.HikariConfig           : HikariPool-1 - configuration:
-2025-03-19T20:25:59.559+05:30 DEBUG 295956 --- [addressbook] [restartedMain] com.zaxxer.hikari.HikariConfig           : allowPoolSuspension.............false
-2025-03-19T20:25:59.560+05:30 DEBUG 295956 --- [addressbook] [restartedMain] com.zaxxer.hikari.HikariConfig           : autoCommit......................true
-2025-03-19T20:25:59.560+05:30 DEBUG 295956 --- [addressbook] [restartedMain] com.zaxxer.hikari.HikariConfig           : catalog.........................none
-2025-03-19T20:25:59.560+05:30 DEBUG 295956 --- [addressbook] [restartedMain] com.zaxxer.hikari.HikariConfig           : connectionInitSql...............none
-2025-03-19T20:25:59.561+05:30 DEBUG 295956 --- [addressbook] [restartedMain] com.zaxxer.hikari.HikariConfig           : connectionTestQuery.............none
-2025-03-19T20:25:59.562+05:30 DEBUG 295956 --- [addressbook] [restartedMain] com.zaxxer.hikari.HikariConfig           : connectionTimeout...............30000
-2025-03-19T20:25:59.563+05:30 DEBUG 295956 --- [addressbook] [restartedMain] com.zaxxer.hikari.HikariConfig           : dataSource......................none
-2025-03-19T20:25:59.563+05:30 DEBUG 295956 --- [addressbook] [restartedMain] com.zaxxer.hikari.HikariConfig           : dataSourceClassName.............none
-2025-03-19T20:25:59.564+05:30 DEBUG 295956 --- [addressbook] [restartedMain] com.zaxxer.hikari.HikariConfig           : dataSourceJNDI..................none
-2025-03-19T20:25:59.564+05:30 DEBUG 295956 --- [addressbook] [restartedMain] com.zaxxer.hikari.HikariConfig           : dataSourceProperties............{password=<masked>}
-2025-03-19T20:25:59.565+05:30 DEBUG 295956 --- [addressbook] [restartedMain] com.zaxxer.hikari.HikariConfig           : driverClassName................."com.mysql.cj.jdbc.Driver"
-2025-03-19T20:25:59.566+05:30 DEBUG 295956 --- [addressbook] [restartedMain] com.zaxxer.hikari.HikariConfig           : exceptionOverrideClassName......none
-2025-03-19T20:25:59.566+05:30 DEBUG 295956 --- [addressbook] [restartedMain] com.zaxxer.hikari.HikariConfig           : healthCheckProperties...........{}
-2025-03-19T20:25:59.566+05:30 DEBUG 295956 --- [addressbook] [restartedMain] com.zaxxer.hikari.HikariConfig           : healthCheckRegistry.............none
-2025-03-19T20:25:59.567+05:30 DEBUG 295956 --- [addressbook] [restartedMain] com.zaxxer.hikari.HikariConfig           : idleTimeout.....................600000
-2025-03-19T20:25:59.567+05:30 DEBUG 295956 --- [addressbook] [restartedMain] com.zaxxer.hikari.HikariConfig           : initializationFailTimeout.......1
-2025-03-19T20:25:59.567+05:30 DEBUG 295956 --- [addressbook] [restartedMain] com.zaxxer.hikari.HikariConfig           : isolateInternalQueries..........false
-2025-03-19T20:25:59.568+05:30 DEBUG 295956 --- [addressbook] [restartedMain] com.zaxxer.hikari.HikariConfig           : jdbcUrl.........................jdbc:mysql://localhost:3306/addressbook
-2025-03-19T20:25:59.568+05:30 DEBUG 295956 --- [addressbook] [restartedMain] com.zaxxer.hikari.HikariConfig           : keepaliveTime...................0
-2025-03-19T20:25:59.568+05:30 DEBUG 295956 --- [addressbook] [restartedMain] com.zaxxer.hikari.HikariConfig           : leakDetectionThreshold..........0
-2025-03-19T20:25:59.569+05:30 DEBUG 295956 --- [addressbook] [restartedMain] com.zaxxer.hikari.HikariConfig           : maxLifetime.....................1800000
-2025-03-19T20:25:59.569+05:30 DEBUG 295956 --- [addressbook] [restartedMain] com.zaxxer.hikari.HikariConfig           : maximumPoolSize.................10
-2025-03-19T20:25:59.570+05:30 DEBUG 295956 --- [addressbook] [restartedMain] com.zaxxer.hikari.HikariConfig           : metricRegistry..................none
-2025-03-19T20:25:59.570+05:30 DEBUG 295956 --- [addressbook] [restartedMain] com.zaxxer.hikari.HikariConfig           : metricsTrackerFactory...........none
-2025-03-19T20:25:59.570+05:30 DEBUG 295956 --- [addressbook] [restartedMain] com.zaxxer.hikari.HikariConfig           : minimumIdle.....................10
-2025-03-19T20:25:59.571+05:30 DEBUG 295956 --- [addressbook] [restartedMain] com.zaxxer.hikari.HikariConfig           : password........................<masked>
-2025-03-19T20:25:59.571+05:30 DEBUG 295956 --- [addressbook] [restartedMain] com.zaxxer.hikari.HikariConfig           : poolName........................"HikariPool-1"
-2025-03-19T20:25:59.571+05:30 DEBUG 295956 --- [addressbook] [restartedMain] com.zaxxer.hikari.HikariConfig           : readOnly........................false
-2025-03-19T20:25:59.572+05:30 DEBUG 295956 --- [addressbook] [restartedMain] com.zaxxer.hikari.HikariConfig           : registerMbeans..................false
-2025-03-19T20:25:59.572+05:30 DEBUG 295956 --- [addressbook] [restartedMain] com.zaxxer.hikari.HikariConfig           : scheduledExecutor...............none
-2025-03-19T20:25:59.572+05:30 DEBUG 295956 --- [addressbook] [restartedMain] com.zaxxer.hikari.HikariConfig           : schema..........................none
-2025-03-19T20:25:59.573+05:30 DEBUG 295956 --- [addressbook] [restartedMain] com.zaxxer.hikari.HikariConfig           : threadFactory...................internal
-2025-03-19T20:25:59.573+05:30 DEBUG 295956 --- [addressbook] [restartedMain] com.zaxxer.hikari.HikariConfig           : transactionIsolation............default
-2025-03-19T20:25:59.573+05:30 DEBUG 295956 --- [addressbook] [restartedMain] com.zaxxer.hikari.HikariConfig           : username........................"root"
-2025-03-19T20:25:59.574+05:30 DEBUG 295956 --- [addressbook] [restartedMain] com.zaxxer.hikari.HikariConfig           : validationTimeout...............5000
-2025-03-19T20:25:59.574+05:30  INFO 295956 --- [addressbook] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-03-19T20:26:00.350+05:30  INFO 295956 --- [addressbook] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@19013155
-2025-03-19T20:26:00.356+05:30  INFO 295956 --- [addressbook] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-03-19T20:26:00.456+05:30 DEBUG 295956 --- [addressbook] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=1, active=1, idle=0, waiting=0)
-2025-03-19T20:26:00.519+05:30 DEBUG 295956 --- [addressbook] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6434caf0
-2025-03-19T20:26:00.550+05:30 DEBUG 295956 --- [addressbook] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After adding stats (total=2, active=0, idle=2, waiting=0)
-2025-03-19T20:26:00.589+05:30 DEBUG 295956 --- [addressbook] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2509c0cb
-2025-03-19T20:26:00.620+05:30 DEBUG 295956 --- [addressbook] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After adding stats (total=3, active=0, idle=3, waiting=0)
-2025-03-19T20:26:00.664+05:30 DEBUG 295956 --- [addressbook] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@14e6031f
-2025-03-19T20:26:00.694+05:30 DEBUG 295956 --- [addressbook] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After adding stats (total=4, active=0, idle=4, waiting=0)
-2025-03-19T20:26:00.735+05:30 DEBUG 295956 --- [addressbook] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@45263f84
-2025-03-19T20:26:00.766+05:30 DEBUG 295956 --- [addressbook] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After adding stats (total=5, active=0, idle=5, waiting=0)
-2025-03-19T20:26:00.822+05:30 DEBUG 295956 --- [addressbook] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@41680603
-2025-03-19T20:26:00.853+05:30 DEBUG 295956 --- [addressbook] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After adding stats (total=6, active=0, idle=6, waiting=0)
-2025-03-19T20:26:00.904+05:30 DEBUG 295956 --- [addressbook] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3543797c
-2025-03-19T20:26:00.934+05:30 DEBUG 295956 --- [addressbook] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After adding stats (total=7, active=0, idle=7, waiting=0)
-2025-03-19T20:26:00.984+05:30 DEBUG 295956 --- [addressbook] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@377695e9
-2025-03-19T20:26:01.014+05:30 DEBUG 295956 --- [addressbook] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After adding stats (total=8, active=0, idle=8, waiting=0)
-2025-03-19T20:26:01.047+05:30 DEBUG 295956 --- [addressbook] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4d1f8921
-2025-03-19T20:26:01.079+05:30 DEBUG 295956 --- [addressbook] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After adding stats (total=9, active=0, idle=9, waiting=0)
-2025-03-19T20:26:01.118+05:30 DEBUG 295956 --- [addressbook] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@60bdff0
-2025-03-19T20:26:01.162+05:30 DEBUG 295956 --- [addressbook] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
-2025-03-19T20:26:01.164+05:30 DEBUG 295956 --- [addressbook] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Connection not added, stats (total=10, active=0, idle=10, waiting=0)
-2025-03-19T20:26:01.477+05:30  WARN 295956 --- [addressbook] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-03-19T20:26:02.450+05:30  INFO 295956 --- [addressbook] [restartedMain] c.e.addressbook.AddressbookApplication   : Started AddressbookApplication in 7.867 seconds (process running for 8.762)
-2025-03-19T20:26:24.201+05:30 DEBUG 295956 --- [addressbook] [http-nio-8080-exec-1] c.e.a.controller.AddressBookController   : Fetching all address book data
-2025-03-19T20:26:30.468+05:30 DEBUG 295956 --- [addressbook] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2025-03-19T20:26:30.485+05:30 DEBUG 295956 --- [addressbook] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
-2025-03-19T20:26:44.659+05:30  INFO 295956 --- [addressbook] [http-nio-8080-exec-3] c.e.a.controller.AddressBookController   : Creating new address book entry: AddressBookDTO(name=John Doe, address=123 Main St, city=New York, state=NY, zip=10001, phone=123-456-7890)
-2025-03-19T20:27:00.488+05:30 DEBUG 295956 --- [addressbook] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2025-03-19T20:27:00.493+05:30 DEBUG 295956 --- [addressbook] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
-2025-03-19T20:27:30.498+05:30 DEBUG 295956 --- [addressbook] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2025-03-19T20:27:30.513+05:30 DEBUG 295956 --- [addressbook] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
-2025-03-19T20:28:00.516+05:30 DEBUG 295956 --- [addressbook] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2025-03-19T20:28:00.522+05:30 DEBUG 295956 --- [addressbook] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
-2025-03-19T20:28:30.531+05:30 DEBUG 295956 --- [addressbook] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2025-03-19T20:28:30.537+05:30 DEBUG 295956 --- [addressbook] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
-2025-03-19T20:29:00.542+05:30 DEBUG 295956 --- [addressbook] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2025-03-19T20:29:00.588+05:30 DEBUG 295956 --- [addressbook] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
-2025-03-19T20:29:30.634+05:30 DEBUG 295956 --- [addressbook] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2025-03-19T20:29:30.797+05:30 DEBUG 295956 --- [addressbook] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
-2025-03-19T20:30:00.802+05:30 DEBUG 295956 --- [addressbook] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2025-03-19T20:30:00.805+05:30 DEBUG 295956 --- [addressbook] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
-2025-03-19T20:30:30.806+05:30 DEBUG 295956 --- [addressbook] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2025-03-19T20:30:30.810+05:30 DEBUG 295956 --- [addressbook] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
-2025-03-19T20:31:00.818+05:30 DEBUG 295956 --- [addressbook] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2025-03-19T20:31:00.824+05:30 DEBUG 295956 --- [addressbook] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
-2025-03-19T20:31:30.826+05:30 DEBUG 295956 --- [addressbook] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2025-03-19T20:31:30.831+05:30 DEBUG 295956 --- [addressbook] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
-2025-03-19T20:32:00.834+05:30 DEBUG 295956 --- [addressbook] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2025-03-19T20:32:00.850+05:30 DEBUG 295956 --- [addressbook] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
-2025-03-19T20:32:30.853+05:30 DEBUG 295956 --- [addressbook] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2025-03-19T20:32:30.866+05:30 DEBUG 295956 --- [addressbook] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
-2025-03-19T20:32:54.918+05:30  INFO 295956 --- [addressbook] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2025-03-19T20:32:54.919+05:30 DEBUG 295956 --- [addressbook] [SpringApplicationShutdownHook] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Before shutdown stats (total=10, active=0, idle=10, waiting=0)
-2025-03-19T20:32:54.922+05:30 DEBUG 295956 --- [addressbook] [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@19013155: (connection evicted)
-2025-03-19T20:32:54.944+05:30 DEBUG 295956 --- [addressbook] [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@6434caf0: (connection evicted)
-2025-03-19T20:32:54.946+05:30 DEBUG 295956 --- [addressbook] [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@2509c0cb: (connection evicted)
-2025-03-19T20:32:54.947+05:30 DEBUG 295956 --- [addressbook] [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@14e6031f: (connection evicted)
-2025-03-19T20:32:54.949+05:30 DEBUG 295956 --- [addressbook] [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@45263f84: (connection evicted)
-2025-03-19T20:32:54.950+05:30 DEBUG 295956 --- [addressbook] [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@41680603: (connection evicted)
-2025-03-19T20:32:54.951+05:30 DEBUG 295956 --- [addressbook] [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@3543797c: (connection evicted)
-2025-03-19T20:32:54.952+05:30 DEBUG 295956 --- [addressbook] [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@377695e9: (connection evicted)
-2025-03-19T20:32:54.954+05:30 DEBUG 295956 --- [addressbook] [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@4d1f8921: (connection evicted)
-2025-03-19T20:32:54.955+05:30 DEBUG 295956 --- [addressbook] [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@60bdff0: (connection evicted)
-2025-03-19T20:32:54.957+05:30 DEBUG 295956 --- [addressbook] [SpringApplicationShutdownHook] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After shutdown stats (total=0, active=0, idle=0, waiting=0)
-2025-03-19T20:32:54.957+05:30  INFO 295956 --- [addressbook] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-03-20T10:20:57.447+05:30  INFO 390488 --- [addressbook] [restartedMain] c.e.addressbook.AddressbookApplication   : Starting AddressbookApplication using Java 21.0.2 with PID 390488 (/home/prince/Desktop/CG/addressbook/target/classes started by prince in /home/prince/Desktop/CG/addressbook)
+2025-03-20T10:20:57.464+05:30 DEBUG 390488 --- [addressbook] [restartedMain] c.e.addressbook.AddressbookApplication   : Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-20T10:20:57.466+05:30  INFO 390488 --- [addressbook] [restartedMain] c.e.addressbook.AddressbookApplication   : The following 1 profile is active: "dev"
+2025-03-20T10:21:01.663+05:30 DEBUG 390488 --- [addressbook] [restartedMain] com.zaxxer.hikari.HikariConfig           : Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader org.springframework.boot.devtools.restart.classloader.RestartClassLoader@746656c4
+2025-03-20T10:21:02.928+05:30 DEBUG 390488 --- [addressbook] [restartedMain] com.zaxxer.hikari.HikariConfig           : HikariPool-1 - configuration:
+2025-03-20T10:21:02.937+05:30 DEBUG 390488 --- [addressbook] [restartedMain] com.zaxxer.hikari.HikariConfig           : allowPoolSuspension.............false
+2025-03-20T10:21:02.938+05:30 DEBUG 390488 --- [addressbook] [restartedMain] com.zaxxer.hikari.HikariConfig           : autoCommit......................true
+2025-03-20T10:21:02.939+05:30 DEBUG 390488 --- [addressbook] [restartedMain] com.zaxxer.hikari.HikariConfig           : catalog.........................none
+2025-03-20T10:21:02.939+05:30 DEBUG 390488 --- [addressbook] [restartedMain] com.zaxxer.hikari.HikariConfig           : connectionInitSql...............none
+2025-03-20T10:21:02.939+05:30 DEBUG 390488 --- [addressbook] [restartedMain] com.zaxxer.hikari.HikariConfig           : connectionTestQuery.............none
+2025-03-20T10:21:02.941+05:30 DEBUG 390488 --- [addressbook] [restartedMain] com.zaxxer.hikari.HikariConfig           : connectionTimeout...............30000
+2025-03-20T10:21:02.942+05:30 DEBUG 390488 --- [addressbook] [restartedMain] com.zaxxer.hikari.HikariConfig           : dataSource......................none
+2025-03-20T10:21:02.943+05:30 DEBUG 390488 --- [addressbook] [restartedMain] com.zaxxer.hikari.HikariConfig           : dataSourceClassName.............none
+2025-03-20T10:21:02.943+05:30 DEBUG 390488 --- [addressbook] [restartedMain] com.zaxxer.hikari.HikariConfig           : dataSourceJNDI..................none
+2025-03-20T10:21:02.944+05:30 DEBUG 390488 --- [addressbook] [restartedMain] com.zaxxer.hikari.HikariConfig           : dataSourceProperties............{password=<masked>}
+2025-03-20T10:21:02.946+05:30 DEBUG 390488 --- [addressbook] [restartedMain] com.zaxxer.hikari.HikariConfig           : driverClassName................."com.mysql.cj.jdbc.Driver"
+2025-03-20T10:21:02.947+05:30 DEBUG 390488 --- [addressbook] [restartedMain] com.zaxxer.hikari.HikariConfig           : exceptionOverrideClassName......none
+2025-03-20T10:21:02.948+05:30 DEBUG 390488 --- [addressbook] [restartedMain] com.zaxxer.hikari.HikariConfig           : healthCheckProperties...........{}
+2025-03-20T10:21:02.948+05:30 DEBUG 390488 --- [addressbook] [restartedMain] com.zaxxer.hikari.HikariConfig           : healthCheckRegistry.............none
+2025-03-20T10:21:02.949+05:30 DEBUG 390488 --- [addressbook] [restartedMain] com.zaxxer.hikari.HikariConfig           : idleTimeout.....................600000
+2025-03-20T10:21:02.949+05:30 DEBUG 390488 --- [addressbook] [restartedMain] com.zaxxer.hikari.HikariConfig           : initializationFailTimeout.......1
+2025-03-20T10:21:02.950+05:30 DEBUG 390488 --- [addressbook] [restartedMain] com.zaxxer.hikari.HikariConfig           : isolateInternalQueries..........false
+2025-03-20T10:21:02.950+05:30 DEBUG 390488 --- [addressbook] [restartedMain] com.zaxxer.hikari.HikariConfig           : jdbcUrl.........................jdbc:mysql://localhost:3306/addressbook
+2025-03-20T10:21:02.951+05:30 DEBUG 390488 --- [addressbook] [restartedMain] com.zaxxer.hikari.HikariConfig           : keepaliveTime...................0
+2025-03-20T10:21:02.951+05:30 DEBUG 390488 --- [addressbook] [restartedMain] com.zaxxer.hikari.HikariConfig           : leakDetectionThreshold..........0
+2025-03-20T10:21:02.951+05:30 DEBUG 390488 --- [addressbook] [restartedMain] com.zaxxer.hikari.HikariConfig           : maxLifetime.....................1800000
+2025-03-20T10:21:02.952+05:30 DEBUG 390488 --- [addressbook] [restartedMain] com.zaxxer.hikari.HikariConfig           : maximumPoolSize.................10
+2025-03-20T10:21:02.952+05:30 DEBUG 390488 --- [addressbook] [restartedMain] com.zaxxer.hikari.HikariConfig           : metricRegistry..................none
+2025-03-20T10:21:02.952+05:30 DEBUG 390488 --- [addressbook] [restartedMain] com.zaxxer.hikari.HikariConfig           : metricsTrackerFactory...........none
+2025-03-20T10:21:02.953+05:30 DEBUG 390488 --- [addressbook] [restartedMain] com.zaxxer.hikari.HikariConfig           : minimumIdle.....................10
+2025-03-20T10:21:02.954+05:30 DEBUG 390488 --- [addressbook] [restartedMain] com.zaxxer.hikari.HikariConfig           : password........................<masked>
+2025-03-20T10:21:02.954+05:30 DEBUG 390488 --- [addressbook] [restartedMain] com.zaxxer.hikari.HikariConfig           : poolName........................"HikariPool-1"
+2025-03-20T10:21:02.955+05:30 DEBUG 390488 --- [addressbook] [restartedMain] com.zaxxer.hikari.HikariConfig           : readOnly........................false
+2025-03-20T10:21:02.955+05:30 DEBUG 390488 --- [addressbook] [restartedMain] com.zaxxer.hikari.HikariConfig           : registerMbeans..................false
+2025-03-20T10:21:02.955+05:30 DEBUG 390488 --- [addressbook] [restartedMain] com.zaxxer.hikari.HikariConfig           : scheduledExecutor...............none
+2025-03-20T10:21:02.956+05:30 DEBUG 390488 --- [addressbook] [restartedMain] com.zaxxer.hikari.HikariConfig           : schema..........................none
+2025-03-20T10:21:02.956+05:30 DEBUG 390488 --- [addressbook] [restartedMain] com.zaxxer.hikari.HikariConfig           : threadFactory...................internal
+2025-03-20T10:21:02.956+05:30 DEBUG 390488 --- [addressbook] [restartedMain] com.zaxxer.hikari.HikariConfig           : transactionIsolation............default
+2025-03-20T10:21:02.957+05:30 DEBUG 390488 --- [addressbook] [restartedMain] com.zaxxer.hikari.HikariConfig           : username........................"root"
+2025-03-20T10:21:02.957+05:30 DEBUG 390488 --- [addressbook] [restartedMain] com.zaxxer.hikari.HikariConfig           : validationTimeout...............5000
+2025-03-20T10:21:02.957+05:30  INFO 390488 --- [addressbook] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-03-20T10:21:03.838+05:30  INFO 390488 --- [addressbook] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@282bd8fa
+2025-03-20T10:21:03.842+05:30  INFO 390488 --- [addressbook] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-03-20T10:21:03.943+05:30 DEBUG 390488 --- [addressbook] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=1, active=1, idle=0, waiting=0)
+2025-03-20T10:21:04.008+05:30 DEBUG 390488 --- [addressbook] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@29a91bb9
+2025-03-20T10:21:04.039+05:30 DEBUG 390488 --- [addressbook] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After adding stats (total=2, active=0, idle=2, waiting=0)
+2025-03-20T10:21:04.110+05:30 DEBUG 390488 --- [addressbook] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@68941182
+2025-03-20T10:21:04.141+05:30 DEBUG 390488 --- [addressbook] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After adding stats (total=3, active=0, idle=3, waiting=0)
+2025-03-20T10:21:04.187+05:30 DEBUG 390488 --- [addressbook] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@59b69a1b
+2025-03-20T10:21:04.218+05:30 DEBUG 390488 --- [addressbook] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After adding stats (total=4, active=0, idle=4, waiting=0)
+2025-03-20T10:21:04.256+05:30 DEBUG 390488 --- [addressbook] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@8bbeecd
+2025-03-20T10:21:04.286+05:30 DEBUG 390488 --- [addressbook] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After adding stats (total=5, active=0, idle=5, waiting=0)
+2025-03-20T10:21:04.341+05:30 DEBUG 390488 --- [addressbook] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@cf512c7
+2025-03-20T10:21:04.372+05:30 DEBUG 390488 --- [addressbook] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After adding stats (total=6, active=0, idle=6, waiting=0)
+2025-03-20T10:21:04.420+05:30 DEBUG 390488 --- [addressbook] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@38c11c9d
+2025-03-20T10:21:04.450+05:30 DEBUG 390488 --- [addressbook] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After adding stats (total=7, active=0, idle=7, waiting=0)
+2025-03-20T10:21:04.490+05:30 DEBUG 390488 --- [addressbook] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3ddff3f0
+2025-03-20T10:21:04.522+05:30 DEBUG 390488 --- [addressbook] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After adding stats (total=8, active=0, idle=8, waiting=0)
+2025-03-20T10:21:04.571+05:30 DEBUG 390488 --- [addressbook] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2367dd34
+2025-03-20T10:21:04.602+05:30 DEBUG 390488 --- [addressbook] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After adding stats (total=9, active=0, idle=9, waiting=0)
+2025-03-20T10:21:04.647+05:30 DEBUG 390488 --- [addressbook] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3d686d41
+2025-03-20T10:21:04.678+05:30 DEBUG 390488 --- [addressbook] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+2025-03-20T10:21:04.678+05:30 DEBUG 390488 --- [addressbook] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Connection not added, stats (total=10, active=0, idle=10, waiting=0)
+2025-03-20T10:21:05.053+05:30  WARN 390488 --- [addressbook] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-03-20T10:21:06.010+05:30  INFO 390488 --- [addressbook] [restartedMain] c.e.addressbook.AddressbookApplication   : Started AddressbookApplication in 9.903 seconds (process running for 11.395)
+2025-03-20T10:21:20.742+05:30  WARN 390488 --- [addressbook] [http-nio-8080-exec-1] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<java.lang.String> com.example.addressbook.controller.AddressBookController.createAddressBook(com.example.addressbook.dto.AddressBookDTO) with 2 errors: [Field error in object 'addressBookDTO' on field 'name': rejected value []; codes [Pattern.addressBookDTO.name,Pattern.name,Pattern.java.lang.String,Pattern]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [addressBookDTO.name,name]; arguments []; default message [name],[Ljakarta.validation.constraints.Pattern$Flag;@4cc540c3,^[A-Z][a-zA-Z\s]*$]; default message [Name must start with a capital letter and contain only letters and spaces]] [Field error in object 'addressBookDTO' on field 'name': rejected value []; codes [NotBlank.addressBookDTO.name,NotBlank.name,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [addressBookDTO.name,name]; arguments []; default message [name]]; default message [Name cannot be empty]] ]
+2025-03-20T10:21:29.407+05:30  WARN 390488 --- [addressbook] [http-nio-8080-exec-2] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<java.lang.String> com.example.addressbook.controller.AddressBookController.createAddressBook(com.example.addressbook.dto.AddressBookDTO): [Field error in object 'addressBookDTO' on field 'name': rejected value [john doe]; codes [Pattern.addressBookDTO.name,Pattern.name,Pattern.java.lang.String,Pattern]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [addressBookDTO.name,name]; arguments []; default message [name],[Ljakarta.validation.constraints.Pattern$Flag;@4cc540c3,^[A-Z][a-zA-Z\s]*$]; default message [Name must start with a capital letter and contain only letters and spaces]] ]
+2025-03-20T10:21:33.945+05:30 DEBUG 390488 --- [addressbook] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-03-20T10:21:33.946+05:30 DEBUG 390488 --- [addressbook] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2025-03-20T10:21:37.737+05:30  INFO 390488 --- [addressbook] [http-nio-8080-exec-3] c.e.a.controller.AddressBookController   : Creating new address book entry: AddressBookDTO(name=John Doe, address=123 Main St, city=New York, state=NY, zip=10001, phone=123-456-7890)
